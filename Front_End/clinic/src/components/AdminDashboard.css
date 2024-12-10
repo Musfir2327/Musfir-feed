@@ -1,0 +1,71 @@
+/* AdminDashboard.css */
+
+.user-list-container {
+    padding: 150px;
+   
+}
+
+.filters {
+    margin-bottom: 20px;
+}
+
+.filters input {
+    margin-right: 10px;
+    padding: 8px;
+    font-size: 16px;
+}
+
+.user-list-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 18px;
+    text-align: left;
+}
+
+.user-list-table th, .user-list-table td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+}
+
+.user-list-table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+
+.user-list-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.user-list-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+.user-list-table td {
+    word-wrap: break-word;
+    max-width: 200px; /* Adjust as needed */
+}
+
+/* Feedback View Button */
+.feedback-view-button {
+    text-align: left; /* Aligns the button to the left */
+    margin-bottom: 20px; /* Adds space above the button */
+    margin-left: 1500px; /* Adjust this value as needed for spacing */
+}
+
+
+.feedback-view-button button {
+    background-color: #007bff; /* Blue background */
+    color: white; /* White text */
+    border: none; /* Removes default border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px 20p; /* Adds padding for size */
+    font-size: 16px; /* Adjusts font size */
+    cursor: pointer; /* Adds a pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.feedback-view-button button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
